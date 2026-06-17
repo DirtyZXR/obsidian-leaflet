@@ -65,7 +65,7 @@ export class InitiativeMapView extends LeafletMapView {
         this.context.addChild(this.renderer);
     }
     getDisplayText() {
-        return "Initiative Tracker Map";
+        return "Карта инициативы";
     }
     getViewType() {
         return "INITIATIVE_TRACKER_MAP_VIEW";
@@ -150,7 +150,7 @@ class ImageControl extends FontAwesomeControl {
     constructor(public map: InitiativeMap) {
         super(
             {
-                tooltip: "Replace Image",
+                tooltip: "Заменить изображение",
                 cls: "leaflet-image-control",
                 icon: "image"
             },
@@ -230,7 +230,7 @@ class InitiativeMap extends ImageMap {
             const context = new Menu(this.plugin.app);
             context.setNoIcon();
             context.addItem((item) => {
-                item.setTitle("Add Creature Here");
+                item.setTitle("Добавить существо здесь");
                 item.onClick((evt) => {
                     this.plugin.app.workspace.trigger(
                         "initiative-tracker:add-creature-here",
@@ -387,7 +387,7 @@ class InitiativeMarker extends Marker {
 
             menu.setNoIcon();
             menu.addItem((item) => {
-                item.setTitle("Apply Damage/Healing").onClick(() => {
+                item.setTitle("Применить урон/лечение").onClick(() => {
                     this.map.plugin.app.workspace.trigger(
                         "initiative-tracker:apply-damage",
                         this.creature
@@ -395,7 +395,7 @@ class InitiativeMarker extends Marker {
                 });
             });
             menu.addItem((item) => {
-                item.setTitle("Add Status").onClick(() => {
+                item.setTitle("Добавить статус").onClick(() => {
                     this.map.plugin.app.workspace.trigger(
                         "initiative-tracker:add-status",
                         this.creature
@@ -404,7 +404,7 @@ class InitiativeMarker extends Marker {
             });
             menu.addItem((item) => {
                 item.setTitle(
-                    this.creature.enabled ? "Disable" : "Enable"
+                    this.creature.enabled ? "Отключить" : "Включить"
                 ).onClick(() => {
                     this.map.plugin.app.workspace.trigger(
                         "initiative-tracker:enable-disable",
@@ -414,7 +414,7 @@ class InitiativeMarker extends Marker {
                 });
             });
             menu.addItem((item) => {
-                item.setTitle("Remove Creature").onClick(() => {
+                item.setTitle("Удалить существо").onClick(() => {
                     this.map.plugin.app.workspace.trigger(
                         "initiative-tracker:remove",
                         this.creature

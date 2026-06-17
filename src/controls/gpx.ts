@@ -108,7 +108,7 @@ class GPXControl extends FontAwesomeControl {
         if (this.target.data.length) {
             addHeatlineDiv();
             data.createDiv("data-item").createSpan({
-                text: `Distance: ${formatNumber(
+                text: `${t("Distance")}: ${formatNumber(
                     convert(this.target.data.length).from("m").to(unit),
                     2
                 )}${unit}`

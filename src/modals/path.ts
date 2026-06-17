@@ -34,14 +34,14 @@ export class PathSuggestionModal extends SuggestionModal<
                 cls: "prompt-instruction-command",
                 text: t("Type") + " #"
             }),
-            createSpan({ text: "to link heading" })
+            createSpan({ text: t("to link heading") })
         ]);
         this.createPrompt([
             createSpan({
                 cls: "prompt-instruction-command",
                 text: t("Type") + " ^"
             }),
-            createSpan({ text: "to link blocks" })
+            createSpan({ text: t("to link blocks") })
         ]);
         this.createPrompt([
             createSpan({

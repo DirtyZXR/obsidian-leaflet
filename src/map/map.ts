@@ -704,7 +704,7 @@ export abstract class BaseMap extends Events implements BaseMapDefinition {
                 ".leaflet-control-fullscreen-button"
             );
             if (fsButton) {
-                fsButton.setAttr("aria-label", "Toggle Full Screen");
+                fsButton.setAttr("aria-label", "Полноэкранный режим");
                 const expand = icon({ iconName: "expand", prefix: "fas" })
                     .node[0];
                 const compress = icon({ iconName: "compress", prefix: "fas" })
@@ -1051,7 +1051,7 @@ export abstract class BaseMap extends Events implements BaseMapDefinition {
                 });
                 under.forEach((overlay, index) => {
                     contextMenu.addItem((item) => {
-                        item.setTitle("Overlay " + `${index + 1}`);
+                        item.setTitle("Наложение " + `${index + 1}`);
                         item.onClick(() => {
                             openOverlayContext(overlay);
                         });
@@ -1102,7 +1102,7 @@ export abstract class BaseMap extends Events implements BaseMapDefinition {
             if (!marker.type || !marker.html) return;
             contextMenu.addItem((item) => {
                 item.setTitle(
-                    marker.type == "default" ? "Default" : marker.type
+                    marker.type == "default" ? "По умолчанию" : marker.type
                 );
                 item.onClick(async () => {
                     this.log(`${marker.type} selected. Creating marker.`);
@@ -1123,14 +1123,14 @@ export abstract class BaseMap extends Events implements BaseMapDefinition {
 
         contextMenu.setNoIcon();
         contextMenu.addItem((item) => {
-            item.setTitle("Show coordinates").onClick(async () => {
+            item.setTitle("Показать координаты").onClick(async () => {
                 await this.getMapCoordinates(evt);
             });
         });
         contextMenu.addItem((item) =>
             item
                 .setTitle(
-                    !this.isDrawing ? "Measure distance" : "Finish measuring"
+                    !this.isDrawing ? "Измерить расстояние" : "Завершить измерение"
                 )
                 .onClick(() => {
                     this.handleMapDistance(evt, true);
@@ -1143,7 +1143,7 @@ export abstract class BaseMap extends Events implements BaseMapDefinition {
             if (!marker.type || !marker.html) return;
             contextMenu.addItem((item) => {
                 item.setTitle(
-                    marker.type == "default" ? "Default" : marker.type
+                    marker.type == "default" ? "По умолчанию" : marker.type
                 );
                 item.onClick(async () => {
                     this.log(`${marker.type} selected. Creating marker.`);

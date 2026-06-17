@@ -589,12 +589,12 @@ export class CreateMarkerModal extends Modal {
             .setName(t("Associate Tags"))
             .setDesc(t("Markers created from this tag using "))
             .addText((t) => {
-                t.setPlaceholder("Add Tag");
+                t.setPlaceholder("Добавить тег");
                 t.onChange((v) => (tag = v));
                 if (focus) t.inputEl.focus();
             })
             .addButton((b) => {
-                b.setTooltip("Add Tag")
+                b.setTooltip("Добавить тег")
                     .setButtonText("+")
                     .onClick(() => {
                         if (
@@ -618,7 +618,7 @@ export class CreateMarkerModal extends Modal {
             new Setting(tagContainer).setName(tag).addExtraButton((b) =>
                 b
                     .setIcon("trash")
-                    .setTooltip("Remove Tag")
+                    .setTooltip("Удалить тег")
                     .onClick(() => {
                         this.tempMarker.tags = this.tempMarker.tags.filter(
                             (t) => t !== tag

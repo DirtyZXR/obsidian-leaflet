@@ -7,7 +7,7 @@ export class CompleteControl extends FontAwesomeControl {
             {
                 icon: "check",
                 cls: "leaflet-control-complete",
-                tooltip: "Finish"
+                tooltip: "Завершить"
             },
             drawControl.map.leafletInstance
         );
@@ -26,7 +26,7 @@ export class UndoControl extends FontAwesomeControl {
             {
                 icon: "undo-alt",
                 cls: "leaflet-control-undo",
-                tooltip: "Undo"
+                tooltip: "Отменить"
             },
             drawControl.map.leafletInstance
         );
@@ -43,7 +43,7 @@ export class CancelControl extends FontAwesomeControl {
             {
                 icon: "times-circle",
                 cls: "leaflet-control-cancel",
-                tooltip: "Cancel"
+                tooltip: "Отмена"
             },
             drawControl.map.leafletInstance
         );

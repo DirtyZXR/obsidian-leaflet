@@ -63,7 +63,7 @@ export class Polyline extends Shape<L.Polyline> {
                 }
                 if (notice.length) {
                     new Notice(
-                        `${notice.join("\n")}\n\nTotal: ${total} ${
+                        `${notice.join("\n")}\n\nИтого: ${total} ${
                             this.map.unit
                         }`
                     );
@@ -328,7 +328,7 @@ export class ArrowControl extends FontAwesomeControl {
             {
                 icon: "arrow-up",
                 cls: "leaflet-control-arrow",
-                tooltip: "Add Arrows to Line"
+                tooltip: "Добавить стрелки к линии"
             },
             drawControl.map.leafletInstance
         );

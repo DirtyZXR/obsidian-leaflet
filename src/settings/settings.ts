@@ -811,7 +811,7 @@ export class ObsidianLeafletSettingTab extends PluginSettingTab {
                         }
                     }
                     await this.plugin.saveSettings();
-                    new Notice("Marker file successfully imported.");
+                    new Notice(t("Marker file successfully imported."));
                 }
             } catch (e) {
                 new Notice(

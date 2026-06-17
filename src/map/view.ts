@@ -72,7 +72,7 @@ export class LeafletMapView extends ItemView {
     onMoreOptionsMenu(menu: Menu): void {
         menu.addItem((item) => {
             item.setIcon("pencil")
-                .setTitle("Edit Map Parameters")
+                .setTitle("Изменить параметры карты")
                 .onClick(() => {
                     const modal = new EditParametersModal(this.plugin);
                     modal.onClose = () => {};

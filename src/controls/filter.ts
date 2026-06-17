@@ -173,7 +173,7 @@ export class FilterMarkers extends FontAwesomeControl {
             });
 
             label.createDiv({
-                text: "Custom"
+                text: "Пользовательский"
             });
 
             input.addEventListener("click", (evt) => {

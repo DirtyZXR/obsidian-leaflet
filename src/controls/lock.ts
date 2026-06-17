@@ -16,17 +16,17 @@ export class LockControl extends FontAwesomeControl {
     setState(state: boolean) {
         if (!state) {
             this.setIcon("unlock");
-            this.setTooltip("Lock Map");
+            this.setTooltip("Заблокировать карту");
         } else {
             this.setIcon("lock");
-            this.setTooltip("Unlock Map");
+            this.setTooltip("Разблокировать карту");
         }
     }
 }
 
 export function lockControl(opts: L.ControlOptions, map: BaseMapType) {
     const icon = map.options.lock ? "lock" : "unlock";
-    const tooltip = map.options.lock ? "Unlock Map" : "Lock Map";
+    const tooltip = map.options.lock ? "Разблокировать карту" : "Заблокировать карту";
     const options: FontAwesomeControlOptions = {
         ...opts,
         icon,

@@ -1,316 +1,319 @@
 export default {
     //main.ts
-    "Loading Obsidian Leaflet v%1": "Loading Obsidian Leaflet v%1", //version number
-    "Open Leaflet Map": "Open Leaflet Map",
-    "Unloading Obsidian Leaflet": "Unloading Obsidian Leaflet",
+    "Loading Obsidian Leaflet v%1": "Загрузка Obsidian Leaflet v%1", //version number
+    "Open Leaflet Map": "Открыть карту Leaflet",
+    "Unloading Obsidian Leaflet": "Выгрузка Obsidian Leaflet",
     "Obsidian Leaflet maps must have an ID.":
-        "Obsidian Leaflet maps must have an ID.",
-    "ID required": "ID required",
+        "Карта Obsidian Leaflet должна иметь идентификатор.",
+    "ID required": "Требуется идентификатор",
     "There was an error saving into the configured directory.":
-        "There was an error saving into the configured directory.",
+        "Ошибка при сохранении в указанную директорию.",
 
     //renderer.ts
-    "Could not parse GeoJSON file": "Could not parse GeoJSON file",
+    "Could not parse GeoJSON file": "Не удалось разобрать файл GeoJSON",
     "Could not parse overlay radius. Please make sure it is in the format `<length> <unit>`.":
-        "Could not parse overlay radius. Please make sure it is in the format `<length> <unit>`.",
+        "Не удалось разобрать радиус наложения. Убедитесь, что формат: `<длина> <единица>`.",
     "There was an error with the provided latitude. Using default.":
-        "There was an error with the provided latitude. Using default.",
+        "Ошибка в указанной широте. Используется значение по умолчанию.",
     "There was an error with the provided longitude. Using default.":
-        "There was an error with the provided longitude. Using default.",
+        "Ошибка в указанной долготе. Используется значение по умолчанию.",
 
     //loader.ts
     "There was an issue getting the image dimensions.":
-        "There was an issue getting the image dimensions.",
+        "Не удалось получить размеры изображения.",
 
     //watcher.ts
     "There was an error updating the marker for %1.":
-        "There was an error updating the marker for %1.", //file name
+        "Ошибка при обновлении маркера для %1.", //file name
     "There was an error updating the marker type for %1.":
-        "There was an error updating the marker type for %1.", //file name
+        "Ошибка при обновлении типа маркера для %1.", //file name
     "There was an error updating the markers for %1.":
-        "There was an error updating the markers for %1.", //file name
+        "Ошибка при обновлении маркеров для %1.", //file name
 
     //utils.ts
-    "Coordinates copied to clipboard.": "Coordinates copied to clipboard.",
+    "Coordinates copied to clipboard.": "Координаты скопированы в буфер обмена.",
     "There was an error trying to copy coordinates to clipboard.":
-        "There was an error trying to copy coordinates to clipboard.",
+        "Не удалось скопировать координаты в буфер обмена.",
     "There was an error rendering the map":
-        "There was an error rendering the map",
-    "Unparseable height provided.": "Unparseable height provided.",
+        "Ошибка при отрисовке карты",
+    "Unparseable height provided.": "Указана недопустимая высота.",
     "There was a problem with the provided height. Using 500px.":
-        "There was a problem with the provided height. Using 500px.",
-    "Could not parse latitude": "Could not parse latitude",
-    "Could not parse longitude": "Could not parse longitude",
-    "No data for marker %1.": "No data for marker %1.", //marker code block definition
+        "Проблема с указанной высотой. Используется 500px.",
+    "Could not parse latitude": "Не удалось разобрать широту",
+    "Could not parse longitude": "Не удалось разобрать долготу",
+    "No data for marker %1.": "Нет данных для маркера %1.", //marker code block definition
     "The `%1` field%2 can only be used with the Dataview plugin installed.":
-        "The `%1` field%2 can only be used with the Dataview plugin installed.", //parameter name, plural
-    "Could not parse location in %1": "Could not parse location in %1", //file name
+        "Поле `%1`%2 доступно только при установленном плагине Dataview.", //parameter name, plural
+    "Could not parse location in %1": "Не удалось разобрать местоположение в %1", //file name
     "Could not parse map overlay length in %1. Please ensure it is in the format: <distance> <unit>":
-        "Could not parse map overlay length in %1. Please ensure it is in the format: <distance> <unit>", //file name
-    "%1 overlay": "%1 overlay", //file name
+        "Не удалось разобрать размер наложения в %1. Убедитесь, что формат: <расстояние> <единица>", //file name
+    "%1 overlay": "Наложение %1", //file name
     "Could not parse %1 in %2. Please ensure it is in the format: <distance> <unit>":
-        "Could not parse %1 in %2. Please ensure it is in the format: <distance> <unit>", //overlayTag, file name
+        "Не удалось разобрать %1 в %2. Убедитесь, что формат: <расстояние> <единица>", //overlayTag, file name
 
     //units.ts
-    meters: "meters",
-    petameters: "petameters",
-    terameters: "terameters",
-    gigameters: "gigameters",
-    megameters: "megameters",
-    kilometers: "kilometers",
-    hectometers: "hectometers",
-    decameters: "decameters",
-    decimeters: "decimeters",
-    centimeters: "centimeters",
-    millimeters: "millimeters",
-    micrometers: "micrometers",
-    nanometers: "nanometers",
-    picometers: "picometers",
-    femtometers: "femtometers",
-    feet: "feet",
-    inches: "inches",
-    yards: "yards",
-    miles: "miles",
-    "nautical miles": "nautical miles",
+    meters: "метры",
+    petameters: "петаметры",
+    terameters: "тераметры",
+    gigameters: "гигаметры",
+    megameters: "мегаметры",
+    kilometers: "километры",
+    hectometers: "гектометры",
+    decameters: "декаметры",
+    decimeters: "дециметры",
+    centimeters: "сантиметры",
+    millimeters: "миллиметры",
+    micrometers: "микрометры",
+    nanometers: "нанометры",
+    picometers: "пикометры",
+    femtometers: "фемтометры",
+    feet: "футы",
+    inches: "дюймы",
+    yards: "ярды",
+    miles: "мили",
+    "nautical miles": "морские мили",
 
     //settings.ts
-    "Obsidian Leaflet Settings": "Obsidian Leaflet Settings",
-    "Default Map Marker": "Default Map Marker",
-    "This marker is always available.": "This marker is always available.",
-    "Icon Name": "Icon Name",
-    "A default marker must be defined.": "A default marker must be defined",
+    "Obsidian Leaflet Settings": "Настройки Obsidian Leaflet",
+    "Default Map Marker": "Маркер карты по умолчанию",
+    "This marker is always available.": "Этот маркер всегда доступен.",
+    "Icon Name": "Имя иконки",
+    "A default marker must be defined.": "Необходимо задать маркер по умолчанию.",
     "The selected icon does not exist in Font Awesome Free.":
-        "The selected icon does not exist in Font Awesome Free.",
-    "Upload Image": "Upload Image",
-    "Marker Color": "Marker Color",
-    "Layer Base Marker": "Layer Base Marker",
+        "Выбранная иконка отсутствует в Font Awesome Free.",
+    "Upload Image": "Загрузить изображение",
+    "Marker Color": "Цвет маркера",
+    "Layer Base Marker": "Базовый маркер слоя",
     "Use as base layer for additional markers by default.":
-        "Use as base layer for additional markers by default.",
-    "Additional Map Markers": "Additional Map Markers",
-    "Add Additional": "Add Additional",
+        "Использовать как базовый слой для дополнительных маркеров по умолчанию.",
+    "Additional Map Markers": "Дополнительные маркеры карты",
+    "Add Additional": "Добавить",
     "These markers will be available in the right-click menu on the map.":
-        "These markers will be available in the right-click menu on the map.",
-    "Default Latitude": "Default Latitude",
+        "Эти маркеры будут доступны в контекстном меню карты.",
+    "Default Latitude": "Широта по умолчанию",
     "Real-world maps will open to this latitude if not specified.":
-        "Real-world maps will open to this latitude if not specified.",
-    "Latitude must be a number.": "Latitude must be a number.",
-    "Default Longitude": "Default Longitude",
+        "Реальные карты откроются на этой широте, если она не задана явно.",
+    "Latitude must be a number.": "Широта должна быть числом.",
+    "Default Longitude": "Долгота по умолчанию",
     "Real-world maps will open to this longitude if not specified.":
-        "Real-world maps will open to this longitude if not specified.",
-    "Longitude must be a number.": "Longitude must be a number.",
-    "Reset to Default": "Reset to Default",
+        "Реальные карты откроются на этой долготе, если она не задана явно.",
+    "Longitude must be a number.": "Долгота должна быть числом.",
+    "Reset to Default": "Сбросить к значению по умолчанию",
     "Please back up your data before changing this setting.":
-        "Please back up your data before changing this setting.",
-    "Current directory": "Current directory",
-    "Default Config Directory": "Default Config Directory",
-    "Default Marker Tooltip Behavior": "Default Marker Tooltip Behavior",
+        "Сделайте резервную копию данных перед изменением этого параметра.",
+    "Current directory": "Текущая директория",
+    "Default Config Directory": "Директория конфигурации по умолчанию",
+    "Default Marker Tooltip Behavior": "Поведение подсказки маркера по умолчанию",
     "New markers will be created to this setting by default. Can be overridden per-marker.":
-        "New markers will be created to this setting by default. Can be overridden per-marker.",
-    Always: "Always",
-    Hover: "Hover",
-    Never: "Never",
-    "Display Note Preview": "Display Note Preview",
+        "Новые маркеры будут создаваться с этим параметром по умолчанию. Можно переопределить для каждого маркера.",
+    Always: "Всегда",
+    Hover: "При наведении",
+    Never: "Никогда",
+    "Display Note Preview": "Показывать предпросмотр заметки",
     "Markers linked to notes will show a note preview when hovered.":
-        "Markers linked to notes will show a note preview when hovered.",
-    "Display Overlay Tooltips": "Display Overlay Tooltips",
+        "Маркеры, связанные с заметками, будут показывать предпросмотр при наведении.",
+    "Display Overlay Tooltips": "Показывать подсказки наложений",
     "Overlay tooltips will display when hovered.":
-        "Overlay tooltips will display when hovered.",
-    "Copy Coordinates on Shift-Click": "Copy Coordinates on Shift-Click",
+        "Подсказки наложений будут отображаться при наведении.",
+    "Copy Coordinates on Shift-Click": "Копировать координаты по Shift-клику",
     "Map coordinates will be copied to the clipboard when shift-clicking.":
-        "Map coordinates will be copied to the clipboard when shift-clicking.",
+        "Координаты карты копируются в буфер при Shift-клике.",
     "This setting is experimental and could cause marker data issues. Use at your own risk.":
-        "This setting is experimental and could cause marker data issues. Use at your own risk.",
-    "Import Marker CSV File": "Import Marker CSV File",
-    "Choose File": "Choose File",
-    "Upload CSV File": "Upload CSV File",
-    "Map not specified for line %1": "Map not specified for line %1", //line number in csv
+        "Этот параметр экспериментальный и может вызвать проблемы с данными маркеров. Используйте на свой страх и риск.",
+    "Import Marker CSV File": "Импорт CSV-файла маркеров",
+    "Choose File": "Выбрать файл",
+    "Upload CSV File": "Загрузить CSV-файл",
+    "Map not specified for line %1": "Карта не указана для строки %1", //line number in csv
     "Could not parse latitude for line %1":
-        "Could not parse latitude for line %1", //line number in csv
+        "Не удалось разобрать широту для строки %1", //line number in csv
     "Could not parse longitude for line %1":
-        "Could not parse longitude for line %1", //line number in csv
-    "Marker file successfully imported.": "Marker file successfully imported.",
+        "Не удалось разобрать долготу для строки %1", //line number in csv
+    "Marker file successfully imported.": "Файл маркеров успешно импортирован.",
     "There was an error while importing %1":
-        "There was an error while importing %1", //csv file name
-    "Export Marker Data": "Export Marker Data",
+        "Ошибка при импорте %1", //csv file name
+    "Export Marker Data": "Экспортировать данные маркеров",
     "Export all marker data to a CSV file.":
-        "Export all marker data to a CSV file.",
-    Export: "Export",
-    "Enable Draw Mode by Default": "Enable Draw Mode by Default",
+        "Экспортировать все данные маркеров в CSV-файл.",
+    Export: "Экспорт",
+    "Enable Draw Mode by Default": "Включить режим рисования по умолчанию",
     "The draw control will be added to maps by default. Can be overridden with the draw map block parameter.":
-        "The draw control will be added to maps by default. Can be overridden with the draw map block parameter.",
-    "Default Units": "Default Units",
+        "Элемент управления рисованием будет добавляться на карты по умолчанию. Можно переопределить параметром блока карты.",
+    "Default Units": "Единицы измерения по умолчанию",
     "Select the default system of units for the map.":
-        "Select the default system of units for the map.",
-    "Default Tile Server": "Default Tile Server",
+        "Выберите систему единиц измерения для карты по умолчанию.",
+    "Default Tile Server": "Тайл-сервер по умолчанию",
     "It is up to you to ensure you have proper access to this tile server.":
-        "It is up to you to ensure you have proper access to this tile server.",
-    "Default Tile Server Attribution": "Default Tile Server Attribution",
+        "Убедитесь, что у вас есть доступ к этому тайл-серверу.",
+    "Default Tile Server Attribution": "Атрибуция тайл-сервера по умолчанию",
     "Please ensure your attribution meets all requirements set by the tile server.":
-        "Please ensure your attribution meets all requirements set by the tile server.",
-    "Default Tile Server (Dark Mode)": "Default Tile Server (Dark Mode)",
+        "Убедитесь, что атрибуция соответствует всем требованиям тайл-сервера.",
+    "Default Tile Server (Dark Mode)": "Тайл-сервер по умолчанию (тёмная тема)",
 
-    Imperial: "Imperial",
-    Metric: "Metric",
+    Imperial: "Имперская",
+    Metric: "Метрическая",
     "Only display when zooming out above this zoom.":
-        "Only display when zooming out above this zoom.",
+        "Показывать только при уменьшении масштаба выше этого значения.",
     "Only display when zooming in below this zoom.":
-        "Only display when zooming in below this zoom.",
-    "Reset": "Reset",
-    "Default Tile Server Subdomains": "Default Tile Server Subdomains",
+        "Показывать только при увеличении масштаба ниже этого значения.",
+    "Reset": "Сбросить",
+    "Default Tile Server Subdomains": "Поддомены тайл-сервера по умолчанию",
     "Available subdomains for this tile server concurrent requests.":
-        "Available subdomains for this tile server concurrent requests. Spilt by ',', etc. 'a,b,c'",
+        "Доступные поддомены для параллельных запросов к тайл-серверу. Разделяются запятой, например: 'a,b,c'.",
 
     //modals/settings.ts
-    "Marker Name": "Marker Name",
-    "Marker name already exists.": "Marker name already exists.",
-    "Marker name cannot be empty.": "Marker name cannot be empty.",
+    "Marker Name": "Название маркера",
+    "Marker name already exists.": "Маркер с таким именем уже существует.",
+    "Marker name cannot be empty.": "Название маркера не может быть пустым.",
     "Font Awesome icon name (e.g. map-marker).":
-        "Font Awesome icon name (e.g. map-marker).",
-    "Use Image for Icon": "Use Image for Icon",
-    "Layer Icon": "Layer Icon",
+        "Имя иконки Font Awesome (например, map-marker).",
+    "Use Image for Icon": "Использовать изображение как иконку",
+    "Layer Icon": "Иконка слоя",
     "The icon will be layered on the base icon.":
-        "The icon will be layered on the base icon.",
-    "Override default icon color.": "Override default icon color.",
-    Save: "Save",
-    "Marker type already exists.": "Marker type already exists.",
-    "Invalid icon name.": "Invalid icon name.",
-    "Icon cannot be empty.": "Icon cannot be empty.",
-    Cancel: "Cancel",
+        "Иконка будет наложена поверх базовой иконки.",
+    "Override default icon color.": "Переопределить цвет иконки по умолчанию.",
+    Save: "Сохранить",
+    "Marker type already exists.": "Тип маркера с таким именем уже существует.",
+    "Invalid icon name.": "Недопустимое имя иконки.",
+    "Icon cannot be empty.": "Иконка не может быть пустой.",
+    Cancel: "Отмена",
 
     //modals/path.ts
-    Type: "Type",
-    "to link heading": "to link heading",
-    "to link blocks": "to link blocks",
-    Note: "Note",
+    Type: "Введите",
+    "to link heading": "для перехода к заголовку",
+    "to link blocks": "для перехода к блокам",
+    Note: "Примечание",
     "Blocks must have been created already":
-        "Blocks must have been created already",
+        "Блоки должны быть созданы заранее",
 
     //modals/mapview.ts
     "There was an error parsing the JSON.":
-        "There was an error parsing the JSON.",
+        "Ошибка при разборе JSON.",
 
     //modals/context.ts
-    "Execute Command": "Execute Command",
+    "Description": "Описание",
+    "Show Advanced Options": "Дополнительные параметры",
+    "Execute Command": "Выполнить команду",
     "The marker will execute an Obsidian command on click":
-        "The marker will execute an Obsidian command on click",
-    "Command to Execute": "Command to Execute",
+        "Маркер выполнит команду Obsidian при нажатии",
+    "Command to Execute": "Команда для выполнения",
     "Name of Obsidian Command to execute":
-        "Name of Obsidian Command to execute",
-    Command: "Command",
-    "Note to Open": "Note to Open",
-    "Path of note to open": "Path of note to open",
-    Path: "Path",
-    "Marker Type": "Marker Type",
-    Default: "Default",
-    "Display Tooltip": "Display Tooltip",
-    "Min Zoom": "Min Zoom",
+        "Имя команды Obsidian для выполнения",
+    Command: "Команда",
+    "Note to Open": "Открываемая заметка",
+    "Path of note to open": "Путь к открываемой заметке",
+    Path: "Путь",
+    "Marker Type": "Тип маркера",
+    Default: "По умолчанию",
+    "Display Tooltip": "Показывать подсказку",
+    "Min Zoom": "Минимальный масштаб",
     "Only display when zooming in below this zoom. Current map minimum":
-        "Only display when zooming in below this zoom. Current map minimum",
-    "Minimum zoom must be a number.": "Minimum zoom must be a number.",
-    "Max Zoom": "Max Zoom",
+        "Показывать только при увеличении ниже этого масштаба. Минимум карты",
+    "Minimum zoom must be a number.": "Минимальный масштаб должен быть числом.",
+    "Max Zoom": "Максимальный масштаб",
     "Only display when zooming out above this zoom. Current map maximum":
-        "Only display when zooming out above this zoom. Current map maximum",
-    "Maximum zoom must be a number.": "Maximum zoom must be a number.",
-    "Associate Tags": "Associate Tags",
-    "Markers created from this tag using ": "Markers created from this tag using ",
-    " will use this marker icon by default.": " will use this marker icon by default.",
-    "Delete Marker": "Delete Marker",
-    "Overlay Radius": "Overlay Radius",
-    "Circle radius in": "Circle radius in",
-    "Radius must be greater than 0.": "Radius must be greater than 0.",
-    "Overlay Description": "Overlay Description",
-    "Overlay Color": "Overlay Color",
-    "Delete Overlay": "Delete Overlay",
+        "Показывать только при уменьшении выше этого масштаба. Максимум карты",
+    "Maximum zoom must be a number.": "Максимальный масштаб должен быть числом.",
+    "Associate Tags": "Связать теги",
+    "Markers created from this tag using ": "Маркеры, созданные из этого тега с помощью ",
+    " will use this marker icon by default.": " будут использовать эту иконку маркера по умолчанию.",
+    "Delete Marker": "Удалить маркер",
+    "Overlay Radius": "Радиус наложения",
+    "Circle radius in": "Радиус круга в",
+    "Radius must be greater than 0.": "Радиус должен быть больше 0.",
+    "Overlay Description": "Описание наложения",
+    "Overlay Color": "Цвет наложения",
+    "Delete Overlay": "Удалить наложение",
 
     //modals/geojson.ts
-    "File Name": "File Name",
-    "Enter a file name.": "Enter a file name.",
+    "File Name": "Имя файла",
+    "Enter a file name.": "Введите имя файла.",
 
     //map/view.ts
-    "Leaflet Map": "Leaflet Map",
+    "Leaflet Map": "Карта Leaflet",
 
     //map/map.ts
     'Marker type "%1" does not exist, using default.':
-        'Marker type "%1" does not exist, using default.', //marker type
+        'Тип маркера «%1» не найден, используется тип по умолчанию.', //marker type
     "There was an error saving the overlay.":
-        "There was an error saving the overlay.",
+        "Ошибка при сохранении наложения.",
     "There was an error adding GeoJSON to map":
-        "There was an error adding GeoJSON to map",
+        "Ошибка при добавлении GeoJSON на карту",
     "There was an error adding GPX to map":
-        "There was an error adding GPX to map",
-    "Edit Overlay": "Edit Overlay",
-    "Create Marker": "Create Marker",
+        "Ошибка при добавлении GPX на карту",
+    "Edit Overlay": "Изменить наложение",
+    "Create Marker": "Создать маркер",
     "OpenStreetMap has restricted the use of its tile server in Obsidian. Your map may break at any time. Please switch to a different tile server.":
-        "OpenStreetMap has restricted the use of its tile server in Obsidian. Your map may break at any time. Please switch to a different tile server.",
+        "OpenStreetMap ограничил использование своего тайл-сервера в Obsidian. Карта может перестать работать. Пожалуйста, переключитесь на другой тайл-сервер.",
     "There was an issue parsing the tile layer: %1":
-        "There was an issue parsing the tile layer: %1",
+        "Ошибка при разборе тайлового слоя: %1",
     "OpenStreetMap cannot be turned off without specifying additional tile servers.":
-        "OpenStreetMap cannot be turned off without specifying additional tile servers.",
+        "OpenStreetMap нельзя отключить, не указав дополнительные тайл-серверы.",
     //layer/marker.ts
-    "No command found!": "No command found!",
+    "No command found!": "Команда не найдена!",
     "This marker cannot be edited because it was defined in the code block.":
-        "This marker cannot be edited because it was defined in the code block.",
+        "Этот маркер нельзя изменить, так как он определён в блоке кода.",
     "This overlay cannot be edited because it was defined in the code block.":
-        "This overlay cannot be edited because it was defined in the code block.",
-    "Edit Marker": "Edit Marker",
-    "Convert to Code Block": "Convert to Code Block",
+        "Это наложение нельзя изменить, так как оно определено в блоке кода.",
+    "Edit Marker": "Изменить маркер",
+    "Convert to Code Block": "Преобразовать в блок кода",
     "Leaflet: Could not create icon for %1 - does this type exist in settings?":
-        "Leaflet: Could not create icon for %1 - does this type exist in settings?",
+        "Leaflet: не удалось создать иконку для «%1» — существует ли этот тип в настройках?",
 
     //layer/gpx.ts
-    Lat: "Lat",
-    Lng: "Lng",
-    Time: "Time",
-    Elevation: "Elevation",
-    Speed: "Speed",
-    Pace: "Pace",
-    Temperature: "Temperature",
-    "Heart Rate": "Heart Rate",
-    Cadence: "Cadence",
-    spm: "spm",
+    Lat: "Шир.",
+    Lng: "Дол.",
+    Time: "Время",
+    Elevation: "Высота",
+    Speed: "Скорость",
+    Pace: "Темп",
+    Temperature: "Температура",
+    "Heart Rate": "Пульс",
+    Cadence: "Каденс",
+    spm: "шаг/мин",
 
     //controls/zoom.ts
-    "Show All Markers": "Show All Markers",
+    "Show All Markers": "Показать все маркеры",
 
     //controls/reset.ts
-    "Reset View": "Reset View",
+    "Reset View": "Сбросить вид",
 
     //controls/mapview.ts
-    "Edit View Parameters": "Edit View Parameters",
-    "Save Parameters to View": "Save Parameters to View",
+    "Edit View Parameters": "Изменить параметры вида",
+    "Save Parameters to View": "Сохранить параметры вида",
 
     //controls/gpx.ts
-    "Zoom to %1 GPX Track%2": "Zoom to %1 GPX Track%2", //number of tracks, plural
-    Heatlines: "Heatlines",
-    "Zoom to GPX": "Zoom to GPX",
-    Deselect: "Deselect",
+    "Distance": "Расстояние",
+    "Zoom to %1 GPX Track%2": "Перейти к %1 GPX-трек%2", //number of tracks, plural
+    Heatlines: "Тепловые линии",
+    "Zoom to GPX": "Перейти к GPX",
+    Deselect: "Снять выделение",
 
     //controls/filter.ts
-    All: "All",
-    None: "None",
-    "Filter Markers": "Filter Markers",
+    All: "Все",
+    None: "Ни одного",
+    "Filter Markers": "Фильтр маркеров",
 
     //control/edit.ts
-    "Bulk Edit Markers": "Bulk Edit Markers",
-    "Delete All": "Delete All",
-    marker: "marker",
-    markers: "markers",
-    "Add New": "Add New",
+    "Bulk Edit Markers": "Массовое редактирование маркеров",
+    "Delete All": "Удалить все",
+    marker: "маркер",
+    markers: "маркеры",
+    "Add New": "Добавить",
     "There was an issue with the provided latitude.":
-        "There was an issue with the provided latitude.",
+        "Проблема с указанной широтой.",
     "There was an issue with the provided longitude.":
-        "There was an issue with the provided longitude.",
+        "Проблема с указанной долготой.",
     //draw
-    Draw: "Draw",
-    Polygon: "Polygon",
-    Polyline: "Polyline",
-    Rectangle: "Rectangle",
-    "Free Draw": "Free Draw",
-    "Delete Shapes": "Delete Shapes",
-    Done: "Done",
-    Text: "Text",
-    Color: "Color",
-    "Fill Color": "Fill Color",
-    "Move Shapes": "Move Shapes",
-    "Export Drawing to GeoJSON": "Export Drawing to GeoJSON",
+    Draw: "Рисование",
+    Polygon: "Многоугольник",
+    Polyline: "Линия",
+    Rectangle: "Прямоугольник",
+    "Free Draw": "Свободное рисование",
+    "Delete Shapes": "Удалить фигуры",
+    Done: "Готово",
+    Text: "Текст",
+    Color: "Цвет",
+    "Fill Color": "Заливка",
+    "Move Shapes": "Переместить фигуры",
+    "Export Drawing to GeoJSON": "Экспортировать рисунок в GeoJSON",
 };

@@ -399,12 +399,12 @@ export default class ObsidianLeaflet extends Plugin {
             new Notice(
                 createFragment((e) => {
                     e.createSpan({
-                        text: "Obsidian Leaflet: Stamen has removed its map tile servers."
+                        text: "Obsidian Leaflet: Stamen удалил свои тайл-серверы."
                     });
                     e.createEl("br");
                     e.createEl("br");
                     e.createSpan({
-                        text: "Going forward, the default tile server will be "
+                        text: "Тайл-сервером по умолчанию теперь будет "
                     });
                     e.createEl("a", {
                         href: "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
@@ -433,12 +433,12 @@ export default class ObsidianLeaflet extends Plugin {
             new Notice(
                 createFragment((e) => {
                     e.createSpan({
-                        text: "Obsidian Leaflet: OpenStreetMap has restricted the use of its tile server in Obsidian."
+                        text: "Obsidian Leaflet: OpenStreetMap ограничил использование своего тайл-сервера в Obsidian."
                     });
                     e.createEl("br");
                     e.createEl("br");
                     e.createSpan({
-                        text: "Going forward, the default tile server will be "
+                        text: "Тайл-сервером по умолчанию теперь будет "
                     });
                     e.createEl("a", {
                         href: "http://maps.stamen.com/#terrain/12/37.7706/-122.3782",
@@ -789,7 +789,7 @@ export default class ObsidianLeaflet extends Plugin {
         }
 
         if (!this.initiativeView) {
-            new Notice("There was an error opening the initiative map view.");
+            new Notice("Ошибка при открытии вида карты инициативы.");
             return;
         }
     }

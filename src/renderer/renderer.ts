@@ -754,7 +754,7 @@ export class LeafletRenderer extends MarkdownRenderChild {
             /* type, lat, long, link, layer, */
             const { data } = parseCSV<string>(marker);
             if (!data.length) {
-                new Notice("No data");
+                new Notice("Нет данных");
                 continue;
             }
 
@@ -828,11 +828,11 @@ export class LeafletRenderer extends MarkdownRenderChild {
                 type = "default";
             }
             if (!lat || !lat.length || isNaN(Number(lat))) {
-                new Notice("Could not parse latitude");
+                new Notice(t("Could not parse latitude"));
                 continue;
             }
             if (!long || !long.length || isNaN(Number(long))) {
-                new Notice("Could not parse longitude");
+                new Notice(t("Could not parse longitude"));
                 continue;
             }
             let min, max;

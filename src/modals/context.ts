@@ -115,14 +115,14 @@ export class MarkerContextModal extends Modal {
                 });
         }
         new Setting(this.contentEl)
-            .setName("Description")
-            .addTextArea((t) =>
-                t
+            .setName(t("Description"))
+            .addTextArea((text) =>
+                text
                     .setValue(this.tempMarker.description)
                     .onChange((v) => (this.tempMarker.description = v))
             );
         new Setting(this.contentEl)
-            .setName("Show Advanced Options")
+            .setName(t("Show Advanced Options"))
             .addToggle((t) =>
                 t.setValue(this.advanced).onChange((v) => {
                     this.advanced = v;
